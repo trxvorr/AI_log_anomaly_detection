@@ -45,7 +45,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
+```
+streamlit run dashboard.py
+```
 Test the model against the public HDFS dataset ([Loghub](https://github.com/logpai/loghub/blob/master/HDFS/HDFS_2k.log)):
 
 Then upload HDFS_2k.log in the dashboard sidebar.
