@@ -12,7 +12,6 @@ from datetime import datetime
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Log Anomaly Detection Platform", layout="wide")
 
-# --- CUSTOM CSS FOR "NON-AI" LOOK ---
 st.markdown("""
     <style>
     .main {
@@ -263,4 +262,5 @@ else:
     st.success("✅ No anomalies detected. System behavior appears normal.")
 
 with st.expander("View Full Raw Dataset"):
+
     st.dataframe(df)
